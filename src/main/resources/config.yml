@@ -1,0 +1,23 @@
+# 允许的连接主机名列表
+hosts:
+  - example.com
+  - play.example.com
+
+# 是否记录ping请求的调试信息
+logPing: true
+
+# 是否记录连接阻止日志
+logConnection: true
+
+# 防频繁刷新配置
+antiSpamRefresh:
+  # 是否启用防频繁刷新功能
+  enabled: true
+  # 时间窗口（秒），在此时间内计算ping次数
+  timeWindow: 10
+  # 在时间窗口内允许的最大ping次数
+  maxPings: 10
+  # 超过限制后的阻止时间（秒）
+  blockDuration: 30
+  # 是否记录防频繁刷新日志
+  logBlock: true

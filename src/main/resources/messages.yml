@@ -1,0 +1,29 @@
+# 踢出消息
+kick-message: '&c你必须通过正确的主机名连接服务器！'
+
+# 插件初始化消息
+plugin-initialized: 'ForceHosts插件已初始化！'
+
+# 主机名加载消息
+hosts-loaded: '已加载 {} 个允许的主机名'
+
+# 配置加载错误消息
+config-load-error: '加载配置文件失败'
+
+# 连接阻止日志消息
+connection-blocked: '阻止了来自 {} 的连接，使用了无效主机名: {}'
+
+# Ping请求阻止日志消息
+ping-blocked: '阻止了来自 {} 的ping请求，使用了无效主机名: {}'
+
+# 防频繁刷新相关消息
+ping-spam-blocked: '阻止了来自 {} 的频繁ping请求，将在 {} 秒后解除阻止'
+
+# 重载成功消息
+reload-success: '&a配置和语言文件已成功重载！'
+
+# 重载失败消息
+reload-failed: '&c重载配置时发生错误: {}'
+
+# 命令用法
+command-usage: '&e用法: /forcehosts reload - 重新加载配置'
